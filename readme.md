@@ -35,7 +35,7 @@ This was a **DEPI** project where the task was as follows
 3. created pods.yaml to create the nodeapp pods and services [ cluster ip type service ]![1759348250753](images/readme/1759348250753.png)
 4. created nginx-pod.yaml  to create the nginx pod and it's service and it's ConfigMap to edit nginx configuration and set it up as a load balancer and a reverse proxy [ NodePort type service ]![1759348390724](images/readme/1759348390724.png)
 5. got the ip of minikube ![1759348725515](images/readme/1759348725515.png)
-6. the result looked like this  [ pod-1 ] ![1759348756989](images/readme/1759348756989.png)                    and after clicking one more time due to load balancing it shows the other pod app [ pod-2 ]  ![1759348847599](images/readme/1759348847599.png)
+6. the result looked like this  [ pod-1 ] <br> ![1759348756989](images/readme/1759348756989.png)                    and after clicking one more time due to load balancing it shows the other pod app [ pod-2 ]  ![1759348847599](images/readme/1759348847599.png)
 
 ## The basic design of the project
 
