@@ -30,7 +30,7 @@ This was a **DEPI** project where the task was as follows
 
 ## How i solved this task
 
-1. created a simple node express app  [https://github.com/MoAdel10/simple-node-app.git ](https://)
+1. created a simple node express app  [repo link](https://github.com/MoAdel10/simple-node-app.git )
 2. create a docker image and uploaded it to docker hub [ mohamedadel582/nodeapp ]![1759348133105](images/readme/1759348133105.png)
 3. created pods.yaml to create the nodeapp pods and services [ cluster ip type service ]![1759348250753](images/readme/1759348250753.png)
 4. created nginx-pod.yaml  to create the nginx pod and it's service and it's ConfigMap to edit nginx configuration and set it up as a load balancer and a reverse proxy [ NodePort type service ]![1759348390724](images/readme/1759348390724.png)
