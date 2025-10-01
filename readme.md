@@ -18,7 +18,7 @@ This was a **DEPI** project where the task was as follows
 
 ## How to use it
 
-1. `git clone git@github.com:MoAdel10/revers-proxy_load-balancing-nginx.git`
+1. `git clone https://github.com/MoAdel10/revers-proxy_load-balancing-nginx.git`
 2. `kubectl create -f pods.yaml`
 3. `kubectl create -f nginx-pod.yaml`
 4. in comand line type after getting minikube ip `curl http:<minikube ip>:30000/` or in any browser
